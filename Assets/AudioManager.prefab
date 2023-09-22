@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2037774725355289526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2037774725355289527}
+  - component: {fileID: 1879445752615938144}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2037774725355289527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037774725355289526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.192689, y: 9.359794, z: 82.82524}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1879445752615938144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037774725355289526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 028a4ea15afcda84185554b4c2ed13b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audios:
+  - name: menu bgm
+    clip: {fileID: 8300000, guid: 7aca6710fe968724ca70c23e29bdf9d1, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 1
+    volume: 0.108
+    pitch: 1
+    source: {fileID: 0}
+  - name: cave bgm
+    clip: {fileID: 8300000, guid: d57e2d7c9287c094ea8bee7578fe07e0, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 1
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: grass bgm
+    clip: {fileID: 8300000, guid: e5cf8a1969cd3bc4f943c9005556d868, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 1
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: boom
+    clip: {fileID: 8300000, guid: 03d67e05295db6f46a7154ab40e81cb5, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.586
+    pitch: 1
+    source: {fileID: 0}
+  - name: button
+    clip: {fileID: 8300000, guid: 25b25db070df03843bb84197756a13f7, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.838
+    pitch: 1
+    source: {fileID: 0}
+  - name: jump
+    clip: {fileID: 8300000, guid: c927c4babe53d5d4fba91e2012538226, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.206
+    pitch: 1
+    source: {fileID: 0}
+  - name: throw
+    clip: {fileID: 8300000, guid: 60ffb51f9cfa05542ad43ab82ac8c51f, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.452
+    pitch: 1
+    source: {fileID: 0}
+  - name: barrier
+    clip: {fileID: 8300000, guid: 210f3239760ca374da28c464ea111401, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.613
+    pitch: 1
+    source: {fileID: 0}
+  - name: pickUpTrap
+    clip: {fileID: 8300000, guid: 678b8b75d6ea0874fad490efe121c411, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.838
+    pitch: 1
+    source: {fileID: 0}
+  - name: hitTrap
+    clip: {fileID: 8300000, guid: 91459f85be74fd14ca415e54f1615ef4, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.838
+    pitch: 1
+    source: {fileID: 0}
+  - name: hitBarrier
+    clip: {fileID: 8300000, guid: 3cdfdcb2685c570478819bca1bbbd174, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.838
+    pitch: 1
+    source: {fileID: 0}
+  - name: passBomb
+    clip: {fileID: 8300000, guid: cd4d059bcefcdd149b9402b313f0d59e, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.838
+    pitch: 1
+    source: {fileID: 0}
+  - name: bombHitGround
+    clip: {fileID: 8300000, guid: cf345605589b06e4f9806c506d739a98, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.838
+    pitch: 1
+    source: {fileID: 0}
+  - name: gimmick
+    clip: {fileID: 8300000, guid: 0fba91c03b121c345ae12cc6439a4a70, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.543
+    pitch: 1
+    source: {fileID: 0}
+  - name: ticking
+    clip: {fileID: 8300000, guid: 484d269b2d1812340b76efce6fecb7a4, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: activateTrap
+    clip: {fileID: 8300000, guid: a4597949704a42746bd25c176b771d4a, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.838
+    pitch: 1
+    source: {fileID: 0}
+  - name: win
+    clip: {fileID: 8300000, guid: cc0a3690a45ad0142838ad09c5af64f6, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.838
+    pitch: 1
+    source: {fileID: 0}
+  - name: startCount
+    clip: {fileID: 8300000, guid: e80c563621c0c784383976c91147d854, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.634
+    pitch: 1
+    source: {fileID: 0}
+  - name: cherry
+    clip: {fileID: 8300000, guid: 8c95f4d433b245c468b0b88cf25e863b, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.691
+    pitch: 1
+    source: {fileID: 0}
+  - name: settrap
+    clip: {fileID: 8300000, guid: 151bff2bfa4310047bd6b25fa7cbeb5e, type: 3}
+    group: {fileID: 2962964519843091612, guid: a32402d7e7abff0429e402dd19a9cdb6, type: 2}
+    loop: 0
+    volume: 0.67
+    pitch: 1
+    source: {fileID: 0}
